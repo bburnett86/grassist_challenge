@@ -227,14 +227,14 @@
             }
         };
 
-        run([
+        norun([
             "!"
         ], 0, 0);
-        run([
+        norun([
             "!!!",
             "!!!"
         ], 0, 0);
-        run([
+        norun([
             "!!!!!!!!",
             "!!!!!!!!",
             "!!!!!!!!",
@@ -242,7 +242,7 @@
         ], 0, 0);
 
         // Change 'norun' -> 'run' to run flower-bed avoidance
-        norun([
+        run([
             "       ",
             "  !!!  ",
             " !!X!! ",
@@ -251,7 +251,7 @@
         ], 0, 0);
 
         // Change 'norun' -> 'run' to run gravel avoidance
-        run([
+        norun([
             "!!!!%!!!!",
             "!!!!%!!!!",
             "%%%%%%%%%",
