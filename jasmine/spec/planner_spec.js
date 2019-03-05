@@ -62,7 +62,7 @@ describe("planner", function() {
     });
 
     // Change 'xit' -> 'it' to test flower-bed avoidance
-    xit("should avoid passing over a flower bed", function() {
+    it("should avoid passing over a flower bed", function() {
         var patches = [
             "       ",
             "  !!!  ",
@@ -86,7 +86,7 @@ describe("planner", function() {
     });
 
     // Change 'xit' -> 'it' to test this complicated yard
-    xit("should mow a complicated yard", function() {
+    it("should mow a complicated yard", function() {
         var patches = [
             "!!!!!!!!!!!!!!",
             "!X!!X!!XXXXXX!",
@@ -102,7 +102,7 @@ describe("planner", function() {
     });
 
     // Change 'xit' -> 'it' to test this shape
-    xit("should mow a smiling easel", function() {
+    it("should mow a smiling easel", function() {
         var patches = [
             "          XX        ",
             "    XXXXXXXXXXXXXX  ",
